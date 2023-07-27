@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  list-style: none;
+  font-family: Prompt;
+}
+
+.location {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+  height: 42px;
+  background-color: #D9D9D9;
+  align-items: center;
+}
+.location p {
+  display: inline;
+  margin: auto 0;
+}
+.location ul {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 30px;
+  margin: auto 0;
+}
+
+.container nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+}
+.container nav .search {
+  width: 40%;
+  position: relative;
+}
+.container nav .search input {
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px 40px 5px 40px;
+  background-color: #F3F9FB;
+  border: none;
+  outline: none;
+  height: 48px;
+}
+.container nav .search img {
+  position: absolute;
+}
+.container nav .search img:nth-child(1) {
+  top: 25%;
+}
+.container nav .search img:nth-child(3) {
+  right: 10px;
+  top: 17%;
+}
+.container nav .actions {
+  display: flex;
+  gap: 30px;
+}
+.container nav .actions a {
+  font-weight: 600px;
+  color: #666;
+}
+.container .category {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 0 !important;
+}
+.container .category li {
+  padding: 6px 13px;
+  border-radius: 30px;
+  background-color: #F3F9FB;
+  transition: 0.5s;
+}
+.container .category li:hover {
+  background-color: #008ECC;
+  color: white;
+}
+.container .carousel-item {
+  width: 100%;
+  height: 316px;
+  border-radius: 16px;
+  background-color: black;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.container .carousel-item img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .carousel-item .carousel-inner {
+  border-radius: 20px;
+}
+.container .phones {
+  width: 100%;
+  border: 1px solid rgb(67, 29, 170);
+  margin: 70px 0;
+}
+.container .phones .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .phones .title h3 {
+  font-size: 24px;
+}
+.container .phones .title h3 span {
+  color: #008ECC;
+}
+.container .phones .line {
+  width: 100%;
+  height: 4px;
+  background-color: lightgray;
+  margin: 30px 0;
+}
+.container .phones .line div {
+  width: 35%;
+  height: 100%;
+  background-color: #008ECC;
+}
+.container .phones .card-phone {
+  width: 18%;
+  border-radius: 15px;
+  box-shadow: 0 0 1px gray;
+  border: 1px solid transparent;
+  transition: 0.3;
+}
+.container .phones .card-phone:hover {
+  border: 1px solid #008ECC;
+  box-shadow: 0 5px 10px lightgray;
+}
+.container .phones .card-phone .card-img {
+  width: 100%;
+  height: 60%;
+  text-align: center;
+  position: relative;
+}
+.container .phones .card-phone .card-img img {
+  width: 70%;
+  height: 70%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.container .phones .card-phone .card-img img:nth-child(2) {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  right: 0;
+}
+.container .phones .card-phone .card-price {
+  width: 100%;
+  height: 40%;
+  padding: 0 15px;
+}
+.container .phones .card-phone .card-price h4 {
+  font-size: 18px;
+}
+.container .phone-list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}/*# sourceMappingURL=index.css.map */
